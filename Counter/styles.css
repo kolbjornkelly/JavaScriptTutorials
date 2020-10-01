@@ -1,0 +1,120 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffd0a8;
+    color: rgb(54, 43, 43);
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #ffd0a8;
+    flex: 0 0 70%;
+}
+
+#value{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    font-size: 5em;
+    font-weight:300;
+    color: rgb(54, 43, 43);
+}
+
+.buttonContainer{
+    border: none;
+    color: #fff;
+    background:  #ffd0a8;
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+}
+
+.button.decrease{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgb(54, 43, 43);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:rgb(54, 43, 43);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.button.decrease:hover{
+    border-color: rgba(255,255,255,1);
+}
+
+@media all and (max-width:30em){
+    .buttonDecrease{
+    display:block;
+    margin:0.2em auto;
+    }
+}
+
+.button.increase{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgb(54, 43, 43);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:rgb(54, 43, 43);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.button.increase:hover{
+    border-color: rgba(255,255,255,1);
+}
+
+@media all and (max-width:30em){
+    .buttonIncrease{
+    display:block;
+    margin:0.2em auto;
+    }
+
+}
+
+.button.reset{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgb(54, 43, 43);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:rgb(54, 43, 43);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.button.reset:hover{
+    border-color: rgba(255,255,255,1);
+}
+
+@media all and (max-width:30em){
+    .buttonReset{
+    display:block;
+    margin:0.2em auto;
+    }
+}

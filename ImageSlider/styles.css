@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/bckgrnd.jpg')center/cover no-repeat;
+}
+
+.images{
+    background: black;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('img/img0.JPG')center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 10px black;
+    position: relative;
+}
+
+.button{ 
+    display: inline-block;
+    background: blanchedalmond;
+    color: black;
+    border: 3px solid black;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px black;
+    outline: none;
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-110%,-50%);
+}
+
+.next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(117%,-50%);
+}
+
+button:active{
+    background: grey;
+    box-shadow: 1px 1px grey;
+
+}
+
+button:hover{
+    background: lightsalmon;
+    color: lightyellow;
+}
